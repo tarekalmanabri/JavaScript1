@@ -1,21 +1,21 @@
 function checkType(one, two) {
     if (typeof one === typeof two) {
-        console.log('SAME TYPE')
+        console.log("SAME TYPE");
     } else {
-        console.log('Not the same...')
+        console.log("Not the same...");
     }
 }
-var string1 = 'hello';
-var string2 = 'how are you?';
-var myPet = {
+const string1 = "hello";
+const string2 = "how are you?";
+const myPet = {
     name: "Gouda",
     type: "cat",
-    color: "gold"
-}
-var myStudy = {
+    color: "gold",
+};
+const myStudy = {
     field: "programming",
-    period: "7 month"
-}
+    period: "7 month",
+};
 
 checkType(string1, string2);
 checkType(string1, myPet);
