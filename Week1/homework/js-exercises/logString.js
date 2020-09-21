@@ -1,4 +1,4 @@
-var myString = "Tarek Almanabri";
+let myString = "Tarek Almanabri";
 console.log("the value of myString is 'Tarek Almanabri'.");
 console.log(myString);
 myString = "hello, how are you?";

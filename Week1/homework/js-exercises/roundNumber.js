@@ -1,9 +1,9 @@
-var z = 7.25;
+const z = 7.25;
 console.log(z);
-var a = Math.round(z);
+const a = Math.round(z);
 console.log(a);
-var highest = z;
+const highest = z;
 if (a > z) {
     highest = a;
 }
-console.log(highest)
+console.log(highest);
